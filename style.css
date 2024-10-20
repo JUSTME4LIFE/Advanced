@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(164, 164, 227);
+}
+ul>li{
+    color: rgb(38, 228, 165);
+    font-weight: 500;
+}
+ul li::before{
+    content: "👉🏽";
+}
+ul li:hover{
+    color: blueviolet;
+    font-size: 50px;
+}
+p::first-letter{
+    font-size: 150%;
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 199, 199);
+}
+a:hover{
+    color: rgb(226, 148, 30);
+}
+a::after{
+    content: "👉🏽😁";
+}
